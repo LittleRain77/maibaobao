@@ -1,2 +1,2 @@
 # maibaobao
-web training development
+shopping website using ssh(Struts+spring+hibernate) framework.
