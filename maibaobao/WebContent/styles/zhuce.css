@@ -1,0 +1,275 @@
+@charset "gb2312";
+/* CSS Document */
+#zhuce{
+	background-color:#fafafa;
+	width:960px;                       /*整体div设定*/
+	height:520px;
+	border:1px #e1e1e1 solid;
+	margin:10px auto;
+	}
+	
+#zhuce_top{
+	width:912px;
+	border-bottom:1px #e1e1e1 solid;         /*顶部div设定*/
+	padding-bottom:20px;
+	margin:0px auto;
+	}
+#zhuce_top a{
+	text-decoration:none;
+	color:#515151;                           /*顶部div内的超链接设定*/
+	}
+#zhuce_top a:hover{
+	text-decoration:none;                 /*顶部div内的超链接鼠标在上的设定*/
+	color:#F00;
+	}	
+#zhuce_top_t1_td1{
+	font-size:13px;                      /*顶部div表格里的单元格设定*/
+	color:#515151;
+	}	
+#zhuce_top_t1_td2{
+	font-size:11px;                      /*顶部div表格里的单元格设定*/
+	color:#898989;
+	}		
+#zhuce_top_t1_td3{
+	font-size:11px;
+	color:#515151;                       /*顶部div表格里的单元格设定*/
+	}	
+#form1{
+	height:340px;
+	float:left;
+	border-right:1px #e1e1e1 solid;
+	padding-left:23px;                   /*左边div设定*/
+	font-size:14px;
+	color:#4e4e4e;
+	margin-top:-50px;
+	}
+#zhuce_left_t1 input{
+	border:1px #c8c8c8 solid;
+	width:222px;
+	height:35px;                        /*左边div表单设定*/
+	font-size:14px;
+	color:#cacaca;
+	}	
+#huce_left .zhuce_left_t1_td{
+	color:#F00;                      /*左边div单元格设定*/
+	font-size:12px;
+	}	
+#zhuce_left .zhuce_left_t1_td input,#zhuce_left .zhuce_left_t1_td form{
+	display:inline;                 /*左边div表单设定*/
+	width:67px;
+	}
+#zhuce_left_t2{
+	font-size:12px;                /*左边div表格设定*/
+	color:#a8a8a8;
+	}	
+#btn{           /*左边div表格里表单设定*/
+	color:#FFF;
+	background-color:#F00;
+	border:0px;
+	width:80px;
+	height:32px;
+	
+	}	
+#zhuce_left_t2 a{
+	text-decoration:none;
+	color:#F00;
+	}	
+#zhuce_right{
+	float:left;                  /*右边div设定*/
+	vertical-align:middle;
+	margin-top:-60px;
+	}	
+#zhuce_right_t1{
+	font-size:12px;
+	color:#a8a8a8;                /*右边div表格设定*/
+	margin-top:80px;
+	}	
+#zhuce_right_t1 input{
+	font-size:12px;                /*右边div表格里表单设定*/
+	color:#FFF;
+	background-color:#F00;
+	width:102px;
+	height:22px;
+	border:0px;
+	}
+#zhuce_right_t1 a{
+	color:#F00;
+	font-size:14px;
+	}	
+#leftcontainer{
+	margin-top:50px;
+}
+#type{
+	margin:50px auto;
+	height:55px;
+	widows:550px;
+	position:relative;
+}
+#type hr{
+	position:absolute;
+	left:0px;
+	top:36px;
+	z-index:4;
+}
+#type1{
+	position:absolute;
+	left:50px;
+	top:0px;
+	width:150px;
+	height:55px;
+	float:left;
+	margin-top:-20px;
+	
+}
+.type1_1{
+	
+	z-index:5;
+	background-image:url(../images/mail1.jpg)
+}
+.type1_2{
+	cursor:hand;
+	z-index:0;
+	background-image:url(../images/mail2.jpg);
+}
+.type1_3{
+	cursor:default;
+	z-index:0;
+	background-image:url(../images/mail3.jpg);
+}
+#type2{
+	position:absolute;
+	left:210px;
+	top:0px;
+	width:150px;
+	height:55px;
+	float:left;
+	margin-top:-20px;
+}
+.type2_1{
+
+	z-index:10;
+	background-image:url(../images/phone1.jpg);
+}
+.type2_2{
+	cursor:hand;
+	z-index:0;
+	background-image:url(../images/phone2.jpg);
+}
+.type2_3{
+	cursor:default;
+	z-index:0;
+	background-image:url(../images/phone3.jpg);
+}
+#form{
+	position:relative;
+}
+.inp{
+	border:1px solid #dddddd;
+	width:234px;
+	height:36px;
+	line-height:30px;
+	font-size:14px;
+	vertical-align:middle;
+}
+.w{
+	width:105px;
+	height:22px;
+	background:url(../images/pwbg.png);
+	overflow:hidden;
+	display:block;
+	background-position:0px 0px;
+}
+.sele{
+	width:104px;
+	height:33px;
+	border:1px solid #dddddd;
+	font-size:14px;
+	text-align:center;
+	padding:6px;
+}
+.sub1{
+	width:152px;
+	height:50px;
+	
+	border:0px;
+}
+.sub2{
+	width:152px;
+	height:50px;
+	
+	border:0px;
+}
+#mm{
+	magin-left:30px;
+}
+
+.w{
+	width:105px;
+	height:22px;
+	background:url(../images/pwbg.png);
+	overflow:hidden;
+	display:block;
+	background-position:0px 0px;
+}
+.w1{
+	width:105px;
+	height:22px;
+	background:url(../images/pwbg.png);
+	overflow:hidden;
+	display:block;
+	background-position:0px -25px;
+}
+.w2{
+	width:105px;
+	height:22px;
+	background:url(../images/pwbg.png);
+	overflow:hidden;
+	display:block;
+	background-position:0px 47px;
+}
+.w3
+{
+	width:105px;
+	height:22px;
+	background:url(../images/pwbg.png);
+	overflow:hidden;
+	display:block;
+	background-position:0px 22px;
+}
+.wrong{
+	background-color:#ffeaea;
+	border:1px #e5c3c4 solid;
+	padding:10px 10px 10px 20px;
+	background-image:url(../images/wrong.jpg);
+	background-repeat:no-repeat;
+	background-position:left center;
+	text-align:left;
+	width:auto;
+	height:auto;
+	color:#cc0000;
+	display:inline;
+}
+.message{
+	background-color:#fffceb;
+	border:1px #ececd5 solid;
+	width:auto;
+	padding:10px;
+
+	font-size:12px;
+	color:#686868;
+}
+.inp1{
+	border:2px solid #87bdf9;
+	width:232px;
+	height:34px;
+	line-height:30px;
+	font-size:16px;
+	font-weight:bold;
+	vertical-align:middle;
+}
+#content{
+	margin:0px auto;
+	padding:0px;
+	height:1500px;
+	width:980px;
+}

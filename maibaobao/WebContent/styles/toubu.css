@@ -1,0 +1,187 @@
+@charset "gb2312";
+/* CSS Document */
+#header1{
+	background-color:#EDEDED;
+	border-bottom:1px #BCBCBC solid;     /*头部第一层整体设定*/
+	font-size:12px;
+	color:#333333;
+	}
+#header1 a{
+	text-decoration:none;               /*头部第一层中超链接的设定*/
+	color:#333333;                          
+	}
+#header2 a{
+	color:#373737;
+	text-decoration:none;
+	}
+#header2,#header1 a:hover{
+	color:#F00;
+	}
+#header1 .dengluyanse a{
+	color:#F40;
+	}
+	#header1 .dengluyanse a:hover{
+	color:#F00;
+	}
+#header1_tab1{
+	background-color:#EDEDED;
+	height:30px;                       /*头部第一层表格设定*/
+	margin:0px auto;
+	padding:0px;
+	}
+#header2{
+	margin:auto;
+	width:960px;                 /*头部第二层整体设定*/
+	height:86px;
+	font-size:12px;
+	color:#888888;
+	}
+#header2 a{
+	text-decoration:none;        /*头部第二层中超链接的设定*/
+	color:#888888;
+	}		
+.header2_tab1_td2{
+	vertical-align:bottom;         /*头部第二层第一表格第二单元格内容竖直从下对其*/   
+	}		
+#header2_tab2{
+	border:#dddddd 1px solid;      /*头部第二层第二表格设定*/
+	}		
+.nianzhongqing{
+	border:0px;                    /*对文本框表单设定*/
+	}
+.button{
+	background-color:#dddddd;       /*对按钮设定*/
+	}		
+#header3{
+	background-color:#373737;
+	width:960px;                   /*第三层整体设定*/
+	height:40px;
+	margin:auto;
+	font-size:15px;
+    }
+#header3 a,#header3 img{
+	color:#FFF;
+	padding:0px 7px;               /*对第三层中的超链接和图片设定*/
+	text-decoration:none;
+	}
+#header3_d1{
+	margin-top:0px;
+	padding:0px;                     /*第三层嵌套的div1设定*/
+	height:40px;
+	float:left;
+	width:640px;
+	color:#F00;
+	}
+#header3_d2{
+	margin:0px;
+	padding:0px;                      /*第三层嵌套的div2设定*/
+	height:40px;
+	float:right;
+	}		
+#header3_tab1{
+	background-color:#FFF;
+	height:23px;
+	margin-bottom:8px;                 /*第三层表格1设定*/
+	margin-top:9px;
+	margin-right:13px;
+	font-size:14px;
+	color:#373737;
+	}			
+#header4{
+	background-color:#efefef;
+	width:960px;                      /*第四层整体设定*/
+	height:33px;
+	margin:auto;
+	font-size:12px;
+	color:#373737;
+	line-height:35px;
+	}	
+#daohang{
+   background-color:#E53E40;
+   height:39px;
+   width:1200px;
+   margin:0px auto;
+   text-align:center;
+}  
+#dao{
+   width:900px;
+   height:39px;
+   text-align:center;
+   margin-left:150px;
+}   
+.daohang_font{
+   padding-top:9px;
+   font-size:17px;
+   width:100px;
+   height:30px;
+   color:#FFFFFF;
+   font-weight:bold;
+   text-decoration:none;
+   float:left;
+   text-align:center;
+}  
+.daohang_font:hover{
+	background-color:#A40000;
+} 
+
+
+#banner{
+   margin:0px auto;
+   width:1200px;
+   height:100px;
+} 
+.logo111 img{
+   margin-top:28px;
+} 
+.search{
+   float:left;
+   margin:25px 0px 0px 40px;;
+}
+.input{
+   background-image:url(../images/input.png); 
+   width:420px; 
+   height:35px;
+   float:left;
+} 
+.button{
+   float:left;
+   background-image:url(../images/search.png);
+   width:70px;
+   height:38px;
+} 
+.sea_font{
+   clear:both;
+   margin:0px;
+   padding:0px;
+}   
+.sea_font li{
+   list-style:none;
+   display:inline;
+}   
+.sea_font a{
+     color:#717171;
+     font-size:10px; 
+	 text-decoration:none;
+}
+.sea_font a:hover{
+     color:#E4393C;
+	 text-decoration:underline;	 
+}
+.po{
+     width:90px;
+	 height:32px;
+	 float:right;
+	 margin:30px 33px 0px 0px;
+	 background-color:#E8E8E8;
+	  font-size:14px;
+	  line-height:30px;
+	  font-weight:500px;
+	  text-align:center;
+}
+.po a{
+	color: #717171;
+	text-decoration:none;	
+}
+.po a:hover{
+	color: black;
+}	

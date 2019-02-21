@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	}
+#dh_div{
+	height:880px;
+	width:960px;
+	margin:0px auto;
+	}
+#dh_top{
+	height:190px;
+	width:960px;
+	}
+
+#dh_div_left{
+	float:left;
+	height:670px;
+	width:247px;
+	border:solid 1px #dadcdd;
+	margin-top:20px;
+	}
+#dh_left_tb1{
+	height:250px;
+	width:220px;
+	padding-left:15px;
+	}
+#dh_left_tb2{
+	width:220px;
+	padding-left:15px;
+	}
+.dh_left_td1{
+	height:65px;
+	font-weight:bold;
+	font-size:14px;
+	}
+.dh_left_td2{
+	height:44px;
+	font-weight:bold;
+	font-size:14px;
+	border-bottom:dashed 1px;
+	}	
+.dh_left_td3{
+	padding-top:2px;
+	vertical-align:top;
+	height:114px;
+	font-size:11px;
+	}
+/*中部内容左边结束*/
+/*中部右边内容开始*/
+#dh_div_right{
+	border-bottom:solid 1px #dadcdd;
+	border-top:solid 1px #dadcdd;
+	border-right:solid 1px #dadcdd;
+	float:left;
+	height:670px;
+	width:710px;
+	margin-top:20px;
+	}
+/*春夏必备开始*/
+.dh_right_td1{
+	height:33px;
+	vertical-align:bottom;
+	padding-bottom:2px;
+	padding-left:25px;
+	font-size:14px;
+	font-weight:bold;
+	}
+.dh_right_td2{
+	vertical-align:middle;
+	height:33px;
+	width:142px;
+	padding-left:25px;
+	font-size:11px;
+	}
+#dh_right_tb1 a:link{
+	color:#0070c0;
+	text-decoration:none;
+	}
+#dh_right_tb1 a:hover{
+	color:#F09;
+	}
+#dh_right_tb1 a:visited{
+	color:#906;
+	text-decoration:none;
+	}
+/*春夏必备结束*/
+/*热门频道开始段*/
+#dh_right_tb2{
+	font-size:11px;
+	color:#000;
+	border-bottom:solid 1px #dadcdd;
+	border-top:solid 1px #dadcdd;
+	height:70px;
+	}
+.dh_right_td21{
+	font-weight:bold;
+	padding-left:25px;
+	font-size:14px;
+	}
+.dh_right_td22 a:link{
+	text-decoration:none;
+	font-weight:bold;
+	font-size:11px;
+	color:#00b050;
+	padding-left:25px;
+	}
+.dh_right_td23 a:link{
+	text-decoration:none;
+	font-weight:bold;
+	font-size:11px;
+	color:#e46c0a;
+	padding-left:25px;
+	}
+.dh_right_td24 a:link{
+	text-decoration:none;
+	font-weight:bold;
+	font-size:11px;
+	color:#ff0000;
+	padding-left:25px;
+	}
+.dh_right_td22 a:visited{
+	font-weight:bold;
+	font-size:11px;
+	color:#906;
+	padding-left:25px;
+	}
+#dh_right_tb2 a:hover{
+	color:#F09;
+	}
+.dh_right_td23 a:visited{
+	text-decoration:none;
+	font-weight:bold;
+	font-size:11px;
+	color:#906;
+	padding-left:25px;
+	}
+.dh_right_td24 a:visited{
+	text-decoration:none;
+	font-weight:bold;
+	font-size:11px;
+	color:#906;
+	padding-left:25px;
+	}
+/*热门频道结束*/
+/*实用选包开始段*/
+.dh_left_tb3 a:link{
+	text-decoration:none;
+	font-size:11px;
+	color:#0070c0;
+	}
+.dh_right_td31{
+	font-weight:bold;
+	padding-left:25px;
+	font-size:14px;
+	width:110px;
+	}
+.dh_left_td32 a:link{
+	padding-left:25px;
+	font-size:11px;
+	color:#c00000;
+	text-decoration:none;
+	}
+.dh_left_tb3 a:hover{
+	color:#F09;
+	}
+.dh_left_tb3 a:visited{
+	text-decoration:none;
+	font-size:11px;
+	color:#906;
+	}
+.dh_left_td32 a:visited{
+	padding-left:25px;
+	font-size:11px;
+	color:#906;
+	text-decoration:none;
+	}
+/*热门包*/
+.dh_right_td41{
+	height:45px;
+	border-top:solid 1px #dadcdd;
+	font-weight:bold;
+	padding-left:25px;
+	font-size:14px;
+	width:110px;
+	}
+/*中部右边内容结束*/
+/*中部内容结束*/
+/*底部内容开始*/
+#dh_bottom{
+	margin:auto auto;
+	clear:both;
+	height:330px;
+	width:960px;
+	}
+#dh_bottom_tb1{
+	margin-top:50px;
+	height:122px;
+	}
+#dh_bottom_tb1 a:link{
+	color:#888888;
+	text-decoration:none;
+	}
+#dh_bottom_tb1 a:visited{
+	text-decoration:none;
+	color:#906;
+	}
+#dh_bottom_tb1 a:hover{
+	text-decoration:none;
+	color:#f09;
+	}
+.dh_bottom_td1{
+	border-left:#ededed 1px solid;
+	padding-left:19px;
+	font-weight:bold;
+	vertical-align:top;
+	width:120px;
+	font-size:14px;
+	color:#373737;
+	height:22px; 
+	}
+.dh_bottom_td2{
+	border-left:#ededed 1px solid;
+	padding-left:25px;
+	text-align:left;
+	width:120px;
+	font-size:11px;
+	color:#888888;
+	}
+.dh_bottom_td3{
+	text-align:center;
+	border-right:#ededed 1px solid;
+	border-left:#ededed 1px solid;
+	font-weight:bold;
+	vertical-align:top;
+	width:232px;
+	font-size:14px;
+	color:#373737;
+	height:22px; 
+	}
+.dh_bottom_td4{
+	text-align:center;
+	border-right:#ededed 1px solid;
+	border-left:#ededed 1px solid;
+	font-size:20px;
+	color:#ed1c24;
+	font-weight:bold;
+	}
+.dh_bottom_td5{
+	text-align:center;
+	border-right:#ededed 1px solid;
+	border-left:#ededed 1px solid;
+	}
+#dh_bottom_tb2{
+	height:160px;
+	margin-top:23px;
+	}
+#dh_bottom_td21{
+	font-size:11px;
+	color:#888888;
+	text-align:center;
+	height:50px;
+	}
+#dh_bottom_td22{
+	text-align:center;
+	}
+#dh_bottom_td22 img{
+	margin-top:10px;
+	border:0px;
+	margin-left:20px;
+	margin-right:20px;
+	}

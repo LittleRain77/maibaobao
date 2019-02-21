@@ -1,0 +1,83 @@
+@charset "gb2312";
+/* CSS Document */
+
+#denglu{
+	background-color:#fafafa;
+	width:960px;                       /*整体div设定*/
+	height:450px;
+	border:1px #e1e1e1 solid;
+	margin:10px auto 10px auto;
+	}
+#denglu_top{
+	width:912px;
+	border-bottom:1px #e1e1e1 solid;         /*顶部div设定*/
+	padding-bottom:20px;
+	margin:15px auto;
+	}
+#denglu_top a{
+	text-decoration:none;
+	color:#515151;                           /*顶部div内的超链接设定*/
+	}
+#denglu_top a:hover{
+	text-decoration:none;                 /*顶部div内的超链接鼠标在上的设定*/
+	color:#F00;
+	}	
+#denglu_top_t1_td1{
+	font-size:13px;                      /*顶部div表格里的单元格设定*/
+	color:#515151;
+	}	
+#denglu_top_t1_td2{
+	font-size:11px;
+	color:#515151;                       /*顶部div表格里的单元格设定*/
+	}	
+#denglu_left{
+	float:left;
+	border-right:1px #e1e1e1 solid;
+	padding-left:18px;                   /*左边div设定*/
+	font-size:14px;
+	color:#4e4e4e;
+	}
+#denglu_left input{
+	border:1px #c8c8c8 solid;
+	width:222px;
+	height:35px;                        /*左边div表单设定*/
+	font-size:14px;
+	}	
+#denglu_left .denglu_left_t1_td{
+	color:#F00;                      /*左边div单元格设定*/
+	font-size:12px;
+	}	
+#denglu_left .denglu_left_t1_td input,#denglu_left .denglu_left_t1_td form{
+	display:inline;                 /*左边div表单设定*/
+	width:60px;
+	}
+#denglu_left_t2{
+	font-size:12px;                /*左边div表格设定*/
+	color:#a8a8a8;
+	}	
+#denglu_left_t2_td img{           /*左边div表格里图片设定*/
+	margin-right:18px;
+	}	
+#denglu_left_t2 input{           /*左边div表格里表单设定*/
+	width:120px;
+	color:#FFF;
+	background-color:#F00;
+	border:0px;
+	}	
+#denglu_right{
+	float:left;                  /*右边div设定*/
+	vertical-align:middle;
+	}	
+#denglu_right_t1{
+	font-size:12px;
+	color:#a8a8a8;                /*右边div表格设定*/
+	margin-top:120px;
+	}	
+#denglu_right_t1 input{
+	font-size:12px;                /*右边div表格里表单设定*/
+	color:#FFF;
+	background-color:#F00;
+	width:102px;
+	height:22px;
+	border:0px;
+	}	

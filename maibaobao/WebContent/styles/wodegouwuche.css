@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+#gouwuche_top{
+	margin:0px auto;
+	width:900px;
+	}
+#gouwuche_main{
+	height:510px;
+	margin:0px auto;
+	width:900px;
+	padding:10px;
+	}
+#gouwuche_main_1{
+	width:900px;
+	padding:20px;
+	}
+#gouwuche_main_2{
+
+		}
+#gouwuche_main_3{
+	width:900px;
+	font-weight:bold;
+	
+	}
+#gouwuche_main_3_1{
+	float:left;
+	width:145px;
+	height:30px;
+	}
+#gouwuche_main_3_2{
+	float:left;
+	width:145px;
+	min-height:30px;
+		}
+#gouwuche_main_3_3{
+	float:left;
+	width:145px;
+	height:30px;
+	}
+#gouwuche_main_3_4{
+	float:left;
+	width:145px;
+	height:30px;
+	}
+#gouwuche_main_3_5{
+	float:left;
+	width:145px;
+	height:30px;
+		}
+#gouwuche_main_3_6{
+	float:left;
+	width:145px;
+	height:30px;
+		}
+#gouwuche_main_5{
+	margin:20px auto 0px auto;
+	width:900px;
+	}
+#gouwuche_main_6{
+	margin:0px auto 0px auto;
+	width:900px;
+	}
+.shanchu a{
+	text-decoration:none;
+	}
+.shangpin a{
+	color:#000;
+	text-decoration:none;
+	}
+.shangpin a:hover{
+	color:#F00;}
+

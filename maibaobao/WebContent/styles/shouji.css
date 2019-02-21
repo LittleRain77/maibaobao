@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#shouji_main{
+	padding:0px;
+	margin:0px auto;
+	width:960px;
+	border:1px  #e1dfe0 solid;
+	}
+#shouji_main_left{
+	float:left;}
+#shouji_main_left_1{
+
+	}
+#shouji_main_left_2{
+	width:566px;
+
+	}
+#shouji_main_left_3{
+	width:566px;
+
+	}
+#shouji_main_left_4{
+
+	}
+#shouji_main_right{
+	float:right;
+	border:1px solid #e1dfe0;
+	margin:20px;
+	}
+.shoubu_top{
+	width:960px;
+	text-align:left;
+	margin:0px auto;
+	}
+
+#shouji_main_footer{
+	margin:0px auto;
+	width:960px;
+		}
+#shouji_main_footer_2{
+	margin:0px auto;
+	width:960px;
+		}
+#shouji_main_footer_3{
+	margin:0px auto;
+	width:960px;
+	}
+.xiaxuxian{
+	border-bottom:1px #e1dfe0 dashed;
+	}
+.youxiang a{
+	text-decoration:none;
+}
+#iphone{
+	display: block;
+}
+#android{
+	display: none;
+}
+#symbian{
+	display: none;
+}	
+	
+	
